@@ -1,0 +1,16 @@
+{
+  "name": "PlanAhead",
+  "short_name": "PlanAhead",
+  "description": "Know exactly when to start getting ready and when to leave.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#F3F2ED",
+  "theme_color": "#161616",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ],
+  "shortcuts": [
+    { "name": "New plan", "url": "./#/new/blank/to" }
+  ]
+}

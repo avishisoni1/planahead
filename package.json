@@ -1,0 +1,6 @@
+{
+  "name": "planahead",
+  "private": true,
+  "type": "module",
+  "description": "PlanAhead — static PWA. api/parse.js is an optional Vercel function for Gemini."
+}

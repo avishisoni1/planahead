@@ -1,0 +1,9 @@
+{
+  "functions": {
+    "api/parse.js": { "includeFiles": "api/_gemini.json" }
+  },
+  "headers": [
+    { "source": "/sw.js", "headers": [{ "key": "Cache-Control", "value": "no-cache" }] },
+    { "source": "/api/_gemini.json", "headers": [{ "key": "X-Robots-Tag", "value": "noindex" }] }
+  ]
+}
